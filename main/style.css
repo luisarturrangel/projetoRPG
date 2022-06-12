@@ -130,8 +130,16 @@ body::-webkit-scrollbar-thumb {
   margin-right: 2rem;
 }
 
+.margin15left {
+  margin-left: 20rem;
+}
+
 .margin2left {
   margin-left: 2rem;
+}
+
+.padding5top {
+  padding-top: 5rem;
 }
 
 .gridbox {
@@ -172,50 +180,28 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
 }
 
-.box-container {
+.img-container {
+  float: left;
+}
+
+.container-text-img {
   color: white;
-  background-color: var(--bg-pcolor);
-  padding: 7em;
-  display: flex;
-  justify-content: space-between;
+  width: 60%;
+  height: auto;
+  margin-left: 6rem;
+  padding-left: 31rem;
 }
 
-.box-sect {
-  background-color: #333;
-  padding: 80px 120px;
+.principal-things {
+  font-weight: bold;
 }
 
-.box-sect:hover {
-  background-color: var(--secondary-color);
-  transition: 0.5s;
+.resto {
+  margin-left: 1rem;
 }
 
-.list {
-  margin: auto;
-  background-color: var(--bg-pcolor);
-  color: white;
-  text-align: center;
-  width: 50%;
-  box-shadow: 3px 3px 8px hsla(0, 0%, 0%, 0.5);
-  padding: 10px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #333;
-}
-
-.link-list > a {
-  text-decoration: none;
-  color: white;
-}
-
-.link-list > a:hover {
-  color: var(--secondary-color);
-}
-
-.list > ul {
-  list-style-type: "\2714\00A0\00A0";
-  list-style-position: inside;
-  columns: 2;
+#resto2 {
+  list-style: square;
 }
 
 /* escrita */
